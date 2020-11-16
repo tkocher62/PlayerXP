@@ -1,6 +1,6 @@
 # PlayerXP
 
-A plugin that adds a leveling system to your server. Users start at level 1, and gain experience through doing tasks such as escaping as a classd or scientist, winning the round, killing an SCP, etc.
+This is a plugin for my game server that adds a leveling system to the game. As users perform in game actions, they gain experience (xp). After reaching a certain amount of xp, the player will level up. This plugin acts as a baseline for other plugins. Using the API provided, other plugins can take advantage of this leveling system for their own purposes. See below for a full list of features and videos.
 
 # Installation
 
@@ -14,9 +14,9 @@ Place the `PlayerXP.dll` file in your `Exiled/Plugins` folder.
 * All xp rates are configurable, as well as all messages displayed to users for gaining xp.
 * Players will be given small configurable messages on their screen to notify them when they gain xp, as well as level up.
 * Fully configurable karma system.
-  * Players will gain karma for doing good deeds
+  * Players will gain karma for doing good deeds.
   * Players will lost karma for doing bad deeds such as killing unarmed Class-D or Scientists.
-  * Karma is an xp multiplier, all players start with a karma of 1.00
+  * Karma is an xp multiplier, all players start with a karma of 1.00.
   * Players with karma below a certain amount can be denied the ability to play SCP.
   * This system can be toggled on and off.
 * Commands that can be run through RA console **or** client console by using the prefix `.` to check the level, xp, and server ranking of a user, as well as the server leaderboard.
@@ -43,3 +43,17 @@ Developers can access and modify data about each player through the API. After r
 | :-------------: | :------ |
 | XPTOGGLE | Toggles XP gaining/saving. |
 | XPSAVE | Forces a file save from the current round cache. |
+
+# Videos
+
+### Checking Level
+
+![](https://github.com/tkocher62/PlayerXP/blob/master/gifs/level.gif)
+
+### Gaining XP
+
+![](https://github.com/tkocher62/PlayerXP/blob/master/gifs/kill.gif)
+
+### Checking Leaderboard
+
+![](https://github.com/tkocher62/PlayerXP/blob/master/gifs/leaderboard.gif)
